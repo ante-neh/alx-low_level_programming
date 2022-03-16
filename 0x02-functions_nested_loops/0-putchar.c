@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	int i;
+
+	for(i
 
 	return (0);
 }
