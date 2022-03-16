@@ -2,13 +2,18 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	char *sh = "Holberton";
 
-	for(i
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
 	return (0);
 }
